@@ -48,5 +48,7 @@ nnoremap k gk
 nnoremap <leader>W :%s/\s\+$//<cr>:let @/=''<CR>
 nnoremap <leader>w <C-w>v<C-w>l
 autocmd vimenter * NERDTree
-g:nerdtree_tabs_open_on_gui_startup
-g:nerdtree_tabs_autoclose
+g:nerdtree_tabs_open_on_gui_startup=1
+g:nerdtree_tabs_autoclose=1
+g:nerdtree_tabs_open_on_new_tab=1
+
